@@ -78,13 +78,37 @@ class TimeMap {
 
 解法：
 
+```javastring.toCharArray(); Arrays.sort(charArray);```
+
+哈希
+
 利用Set唯一性，添加元素时报错则有重复
 
 数组记录
 
 位运算记录
 
-String.chars().distinct().count == String.length()
+```String.chars().distinct().count == String.length()```
 
 
 
+# 面试金典01.02
+
+解法和顾虑同0101 字符特殊的情况下数组记录很困难。但我仍旧用这个实现了。
+
+鉴于长度[0,100] 建议排序
+
+# 面试金典01.03
+
+```
+ S.substring(0,length).replace(" ","%20");
+```
+
+很多题解没有考虑头部空格
+
+# 面试金典01.04
+
+set唯一性
+位运算最后是否少于一位是1
+
+# 面试金典01.05
