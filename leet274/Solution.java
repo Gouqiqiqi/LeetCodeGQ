@@ -1,10 +1,8 @@
 package leet274;
 
 import java.util.Arrays;
-// FirstAC   剪枝策略：citations 的总和>h*h
-// 好像没啥意义，h不能大于len(citations)..
 
-public class Solution {
+class Solution {
     public int hIndex(int[] citations) {
         int sum = Arrays.stream(citations).sum();
         int hmax = getMax(sum);
@@ -28,8 +26,9 @@ public class Solution {
         for(i = 1 ; i*i<=summary;i++);
         return  i-1;
     }
+
     public static void main(String[] args) {
-        Solution a = new Solution();
-        a.hIndex(new int[]{1});
+        Solution solution = new Solution();
+        solution.hIndex(new int[]{1,2,3,4});
     }
 }
