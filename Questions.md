@@ -1,12 +1,16 @@
 # 每日事项
 
- - [x] LeetCode 刷题
+ - [ ] LeetCode 刷题
+
  - [ ] 专业课程学习
-		数据结构与算法
-		计算机组成
-		操作系统
-		计算机网络
+		- [ ] 数据结构与算法
+		- [ ] 计算机组成
+		- [ ] 操作系统
+		- [ ] /计算机网络
+	
  - [ ] 招聘信息确认
+
+    流程确认-时间敲定-提前看JD做准备
 
 
 
@@ -38,7 +42,7 @@ iterator初始化位于第一个对象以前，每次next都会发生移动。it
 map可以嵌套，```Map<String, TreeMap<Integer, String>> map = new HashMap<>()```
 
 TreeMap和TreeSet内置了floor()和ceiling()方法，寻找大于等于和小于等于```TreeMapA.floorEntry(key)```
-**map的Entry没有学习！**
+**map的Entry没有学习！**---遍历工具，getKey和getValue方法
 
 ```java
 class TimeMap {  
@@ -112,3 +116,4 @@ set唯一性
 位运算最后是否少于一位是1
 
 # 面试金典01.05
+
