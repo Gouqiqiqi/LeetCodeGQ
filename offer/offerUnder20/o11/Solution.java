@@ -1,4 +1,4 @@
-package offer.o11;
+package offer.offerUnder20.o11;
 
 public class Solution {
     public int minArray(int[] numbers) {
