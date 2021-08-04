@@ -1,4 +1,4 @@
-package leet01;
+package leet.leet01;
 
 
 //暴力循环，减少重复n*n/2

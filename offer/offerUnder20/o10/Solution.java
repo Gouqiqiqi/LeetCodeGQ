@@ -1,4 +1,4 @@
-package offer.o10;
+package offer.offerUnder20.o10;
 
 class Solution {
     int[] f= new int[100+1];

@@ -1,4 +1,4 @@
-package leet275;
+package leet.leet275;
 //firstAC same with leet274
 public class Solution {
 

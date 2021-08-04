@@ -1,4 +1,4 @@
-package leet02;
+package leet.leet02;
 
 class ListNode {
     int val;

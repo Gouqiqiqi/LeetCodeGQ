@@ -1,4 +1,4 @@
-package leet1208;
+package leet.leet1208;
 
 
 class Solution {

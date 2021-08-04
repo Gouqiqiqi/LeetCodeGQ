@@ -1,4 +1,4 @@
-package leet981;
+package leet.leet981;
 /*
 总结：
 iterator初始化位于第一个对象以前，每次next都会发生移动。it本身是当前指定的类的一个对象。

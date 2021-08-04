@@ -1,4 +1,4 @@
-package offer.o06;
+package offer.offerUnder20.o06;
 
 import java.util.ArrayDeque;
 

@@ -1,4 +1,4 @@
-package leet03;
+package leet.leet03;
 //first AC 递归，基本思路；从最后一个重复位置开始重新计算
 class Solution {
     public int lengthOfLongestSubstring(String s) {

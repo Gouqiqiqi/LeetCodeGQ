@@ -1,4 +1,4 @@
-package offer.o15;
+package offer.offerUnder20.o15;
 
 public class Solution {
     // you need to treat n as an unsigned value

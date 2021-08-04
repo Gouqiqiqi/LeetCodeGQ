@@ -1,4 +1,4 @@
-package offer.o12;
+package offer.offerUnder20.o12;
 class Solution {
     public enum visitRes{
         yes(true , 1),no(false , -1),never(false, 0);

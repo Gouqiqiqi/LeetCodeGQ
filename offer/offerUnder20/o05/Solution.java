@@ -1,4 +1,4 @@
-package offer.o05;
+package offer.offerUnder20.o05;
 
 class Solution {
     public String replaceSpace(String s) {

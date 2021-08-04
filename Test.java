@@ -3,10 +3,26 @@ import java.util.*;
 
 public class Test {
     public static void main(String[] args) {
-        System.out.println(new Test().maxSlidingWindow(new int[]{1,-1},1));
+//        System.out.println(new Test().maxSlidingWindow(new int[]{1,-1},1));
+        ArrayList<Integer> list = new ArrayList<>();
+        list.add(1);
+        list.add(2);
+        list.add(3);
+        list.add(4);
+        list.add(5);
 
-
+        long t = System.currentTimeMillis();
+        int min = list.stream().min((a, b) -> a > b ? 1 : -1).get();
+        long t1 = System.currentTimeMillis();
+        int Max = Collections.min(list);
+        long t2 = System.currentTimeMillis();
+        System.out.println(min);//1
+        System.out.println(t1-t);//4
+        System.out.println(Max);//1
+        System.out.println((t2-t1));//0
     }
+
+
     public ArrayList<Integer> main(ArrayList<Integer> a,ArrayList<Integer> b){
         //升序归并
         ArrayList<Integer> c = new ArrayList();
