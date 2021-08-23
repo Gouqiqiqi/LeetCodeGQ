@@ -26,7 +26,5 @@ public class Solution {
         }
         return res.stream().mapToInt(Integer::valueOf).toArray();
     }
-    public static void main(String[] args) {
 
-    }
 }
