@@ -10,7 +10,7 @@ public class Solution {
         res = new StringBuilder();
         num = new char[n];
         dfs(n, 0);
-        return res;
+        return res.toString();
     }
     public void  dfs(int n,int index){
         if(index == n ){
