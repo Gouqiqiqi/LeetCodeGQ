@@ -19,7 +19,4 @@ public class Solution {
         return vPostSub(postorder,start,nextSplit,postorder[nextSplit])&& vPostSub(postorder,nextSplit+1,end-1,postorder[end-1]);
     }
 
-    public static void main(String[] args) {
-        new Solution().verifyPostorder(new int[]{4,8,6,12,16,14,10});
-    }
 }
