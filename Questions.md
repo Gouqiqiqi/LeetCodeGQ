@@ -141,3 +141,7 @@ BigInteger
 其中，保存中间结果的变量在每次使用前new，保证了后续修改不可见，产生了匿名对象。
 - 想到使用深度复制，是否可以减少匿名对象的存在。减少了对象头的开销？
   Collections.reverse(partRes); 集合类的妙用。
+  
+### o34 二叉树路径和
+深度优先遍历，传引用时应该在return和方法结束前恢复对引用的修改
+集合类的copy可以用构造器直接：new ArrayList<Integer>(anotherArrayList)
