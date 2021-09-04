@@ -2,6 +2,8 @@ package offer.offerUnder40.o34_2;
 
 import java.util.LinkedList;
 import java.util.List;
+import java.util.concurrent.locks.ReentrantLock;
+
 class TreeNode {
 
     int val;
@@ -26,6 +28,7 @@ public class Solution {
     List<List<Integer>> res =new LinkedList<>();
     public List<List<Integer>> pathSum(TreeNode root, int target) {
         DFS(root,0,target,new LinkedList<>());
+        ReentrantLock reentrantLock = new ReentrantLock();
         return res;
     }
 
