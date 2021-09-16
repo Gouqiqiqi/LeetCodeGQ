@@ -1,4 +1,4 @@
-package Huawei.sept08.code2;
+package companyExam.Huawei.sept08.code2;
 
 import java.util.*;
 public class Main {

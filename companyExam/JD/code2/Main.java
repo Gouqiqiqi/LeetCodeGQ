@@ -1,4 +1,4 @@
-package JD.code2;
+package companyExam.JD.code2;
 
 import java.util.*;
 //引用关系 a依赖b a启动b启动 b停止a停止

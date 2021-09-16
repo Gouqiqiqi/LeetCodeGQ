@@ -1,4 +1,4 @@
-package Huawei.sept15.code03;
+package companyExam.Huawei.sept15.code03;
 import java.util.*;
 // We have imported the necessary tool classes.
 // If you need to import additional packages or classes, please import here.

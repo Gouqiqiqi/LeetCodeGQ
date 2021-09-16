@@ -1,4 +1,4 @@
-package Huawei.sept15.code01;
+package companyExam.Huawei.sept15.code01;
 
 import java.util.Scanner;
 
@@ -6,6 +6,7 @@ import java.util.Scanner;
  * 输入两个数组 分别是工位x轴坐标 消毒器安装x轴坐标
  * 求消毒器半径
  */
+
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

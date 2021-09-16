@@ -1,4 +1,4 @@
-package JD.code1;
+package companyExam.JD.code1;
 
 import java.util.Scanner;
 

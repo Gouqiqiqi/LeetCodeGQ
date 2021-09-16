@@ -1,4 +1,4 @@
-package Huawei.sept08.code1;
+package companyExam.Huawei.sept08.code1;
 
 import java.util.*;
 
