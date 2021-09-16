@@ -1,4 +1,4 @@
-package ByteDance.sept12.code04;
+package mihoyo.sept12.code04;
 
 import java.util.Comparator;
 import java.util.PriorityQueue;
@@ -15,6 +15,7 @@ public class Main {
             int[] nums = new int[n];
             int sum = 0;
             res = 0;
+            maxHeap.clear();
             for (int j = 0; j < nums.length; j++) {
                 nums[j] = sc.nextInt();
                 if (nums[j] < 0) maxHeap.add(nums[j]);
